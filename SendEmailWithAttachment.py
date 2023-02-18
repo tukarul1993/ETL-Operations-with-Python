@@ -5,7 +5,7 @@ from email.mime.application import MIMEApplication
 
 # Set email addresses and credentials
 sender_email = 'sonutinu568@gmail.com'
-sender_password = '10March@2016'
+sender_password = '**************'
 recipient_email = 'tukarulganesh@gmail.com'
 
 # Create message container
