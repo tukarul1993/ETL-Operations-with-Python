@@ -35,5 +35,18 @@ with open('D:\Python\ETL Operations with Python\Files\CSVDataFileRaw.csv', 'r') 
             # Append the cleaned row to the cleaned data list
             cleaned_data.append(cleaned_row)
 
+        #remove duplicates
+        unique_rows = set()
+        for row in cleaned_data:
+            # Convert the row to a tuple and add it to the set
+            unique_rows.add(tuple(row))
+
+        print(unique_rows)
+
+        cleaned_data = [list(row) for row in unique_rows]
+        cleaned_data.sort()
         # Print the cleaned data
+
+
+
         print(cleaned_data)
