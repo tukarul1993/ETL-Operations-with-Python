@@ -49,4 +49,5 @@ with open('D:\Python\ETL Operations with Python\Files\CSVDataFileRaw.csv', 'r') 
 
 
 
-        print(cleaned_data)
+        #print(cleaned_data)
+        
