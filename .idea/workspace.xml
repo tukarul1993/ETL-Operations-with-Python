@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="8th Added Pandas data frame operations">
+    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="added ref file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/pandasDFaddData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/pandasDFaddData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/pandasDataFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/pandasDataFrame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +41,12 @@
       <recent name="D:\Python\ETL\Scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\ETL Operations with Python\HackerRankExamples" />
       <recent name="D:\Python\ETL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pandasColumnBasedCondion">
-    <configuration name="pandasColumnBasedCondion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.readNestedCSVFiles">
+    <configuration name="lineChart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandasCharts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandasColumnBasedCondion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandasCharts/lineChart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandasCorelationMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lineChart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandasCharts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandasCorelationMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandasCharts/lineChart2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandasGroupBySum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="readMultipleFilesWithDask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandasGroupBySum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readMultipleFilesWithDask.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandasMergerDF2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="readMultipleTxtFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandasMergerDF2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readMultipleTxtFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandasMergerDF3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="readNestedCSVFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandasMergerDF3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readNestedCSVFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pandasColumnBasedCondion" />
-        <item itemvalue="Python.pandasCorelationMatrix" />
-        <item itemvalue="Python.pandasGroupBySum" />
-        <item itemvalue="Python.pandasMergerDF3" />
-        <item itemvalue="Python.pandasMergerDF2" />
+        <item itemvalue="Python.readNestedCSVFiles" />
+        <item itemvalue="Python.readMultipleFilesWithDask" />
+        <item itemvalue="Python.readMultipleTxtFiles" />
+        <item itemvalue="Python.lineChart" />
+        <item itemvalue="Python.lineChart2" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676821040848</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9th Added Pandas data frame operations">
+      <created>1676907461357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676907461357</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added ref file">
+      <created>1676907807218</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676907807218</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +270,8 @@
     <MESSAGE value="6th commit...data cleaning programs added" />
     <MESSAGE value="7th commit...data cleaningand remove duplicate rows added" />
     <MESSAGE value="8th Added Pandas data frame operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="8th Added Pandas data frame operations" />
+    <MESSAGE value="9th Added Pandas data frame operations" />
+    <MESSAGE value="added ref file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ref file" />
   </component>
 </project>
