@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="Code to read multiple CSV files from folder or sub folder and load in pandas data frame">
+    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="Added code to read &#10;1) Multiple excel workbooks&#10;2) Multiple sheets from same workbook&#10;3)  Multiple sheets from same workbook, but number of columns may vary.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "last_opened_file_path": "D:/Python/ETL_Dynamic",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -46,8 +47,8 @@
       <recent name="D:\Python\ETL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.readAndLoadMultipleCSVFilesIntoMSSQL">
-    <configuration name="readAndLoadCSVfilesInTables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.iterateThroughAllChilds">
+    <configuration name="iterateThroughAllChilds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readAndLoadCSVfilesInTables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xml/iterateThroughAllChilds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readAndLoadMultipleCSVFilesIntoMSSQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="iterateThroughAllChilds_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readAndLoadMultipleCSVFilesIntoMSSQL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xml/iterateThroughAllChilds_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readMultipleFilesWithDask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="readXML_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readMultipleFilesWithDask.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xml/readXML_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readMultipleTxtFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readMultipleTxtFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xml/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readNestedCSVFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisualizeData" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMultipleTextFilesFromFolder/readNestedCSVFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisualizeData/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.readAndLoadMultipleCSVFilesIntoMSSQL" />
-        <item itemvalue="Python.readAndLoadCSVfilesInTables" />
-        <item itemvalue="Python.readNestedCSVFiles" />
-        <item itemvalue="Python.readMultipleFilesWithDask" />
-        <item itemvalue="Python.readMultipleTxtFiles" />
+        <item itemvalue="Python.iterateThroughAllChilds" />
+        <item itemvalue="Python.iterateThroughAllChilds_2" />
+        <item itemvalue="Python.readXML_2" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677041114323</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Code to read multiple CSV files from folder or sub folder and load in pandas data frame">
+      <created>1677047189031</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677047189031</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added code to read &#10;1) Multiple excel workbooks&#10;2) Multiple sheets from same workbook&#10;3)  Multiple sheets from same workbook, but number of columns may vary.">
+      <created>1677071071431</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677071071431</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +296,7 @@
     <MESSAGE value="9th Added Pandas data frame operations" />
     <MESSAGE value="added ref file" />
     <MESSAGE value="Code to read multiple CSV files from folder or sub folder and load in pandas data frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code to read multiple CSV files from folder or sub folder and load in pandas data frame" />
+    <MESSAGE value="Added code to read &#10;1) Multiple excel workbooks&#10;2) Multiple sheets from same workbook&#10;3)  Multiple sheets from same workbook, but number of columns may vary." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to read &#10;1) Multiple excel workbooks&#10;2) Multiple sheets from same workbook&#10;3)  Multiple sheets from same workbook, but number of columns may vary." />
   </component>
 </project>
