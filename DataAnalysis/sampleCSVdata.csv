@@ -1,0 +1,13 @@
+Employee,Country,Region,Department,Salary
+1,US,South,IT,20000
+2,US,South,Sales,30000
+3,US,South,Support,45000
+4,US,South,IT,20000
+5,US,East,Sales,30000
+6,UK,North,IT,56000
+7,UK,North,Sales,34211
+8,UK,North,Support,12223
+9,UK,North,IT,2323
+10,UK,North,Sales,23112
+11,India,North,IT,2323
+12,India,North,Sales,23112
