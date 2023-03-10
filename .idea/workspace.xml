@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="plotting charts&#10;read xml file data">
-      <change afterPath="$PROJECT_DIR$/DataAnalysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAnalysis/pieChart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAnalysis/pieChart2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAnalysis/readCSVandGroupBy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAnalysis/sampleCSVdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebScrapping/BasicScrape.py" afterDir="false" />
+    <list default="true" id="1a18da00-8b05-4cb4-b899-f6477d8b8bf6" name="Changes" comment="asd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +47,8 @@
       <recent name="D:\Python\ETL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BasicScrape">
-    <configuration name="BasicScrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.algo_ArtificialNeuralNetworks">
+    <configuration name="algo_ArtificialNeuralNetworks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebScrapping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebScrapping/BasicScrape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/algo_ArtificialNeuralNetworks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iterateThroughAllChilds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="algo_DecisionTree_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xml/iterateThroughAllChilds.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/algo_DecisionTree_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pieChart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="algo_GradientBoostingMachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalysis/pieChart.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/algo_GradientBoostingMachine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pieChart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="algo_RandomForest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalysis/pieChart2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/algo_RandomForest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readCSVandGroupBy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="algo_XGBoost" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalysis/readCSVandGroupBy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/algo_XGBoost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BasicScrape" />
-        <item itemvalue="Python.pieChart2" />
-        <item itemvalue="Python.pieChart" />
-        <item itemvalue="Python.readCSVandGroupBy" />
-        <item itemvalue="Python.iterateThroughAllChilds" />
+        <item itemvalue="Python.algo_ArtificialNeuralNetworks" />
+        <item itemvalue="Python.algo_XGBoost" />
+        <item itemvalue="Python.algo_GradientBoostingMachine" />
+        <item itemvalue="Python.algo_RandomForest" />
+        <item itemvalue="Python.algo_DecisionTree_2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677263567735</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="asd">
+      <created>1677851283926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677851283926</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +312,7 @@
     <MESSAGE value="Code to read multiple CSV files from folder or sub folder and load in pandas data frame" />
     <MESSAGE value="Added code to read &#10;1) Multiple excel workbooks&#10;2) Multiple sheets from same workbook&#10;3)  Multiple sheets from same workbook, but number of columns may vary." />
     <MESSAGE value="plotting charts&#10;read xml file data" />
-    <option name="LAST_COMMIT_MESSAGE" value="plotting charts&#10;read xml file data" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
 </project>

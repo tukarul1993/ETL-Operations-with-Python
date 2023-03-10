@@ -1,0 +1,9 @@
+<Sqm version="1.2">
+  <Metrics>
+    <Metric id="TransactionCleanupThread.RecordUsedTransactionShift" type="timer" unit="µs" count="1" sum="21490"   average="21490"   minValue="73701"    maxValue="73701"                               >73701</Metric>
+    <Metric id="TransactionCleanupThread.RefundOldTrans"             type="timer" unit="µs" count="1" sum="184487"  average="184487"  minValue="632704"   maxValue="632704"                              >632704</Metric>
+    <Metric id="Database.CreateConnection_SaveContextUserGUID"       type="timer" unit="µs" count="2" sum="7562"    average="3781"    minValue="12928"    maxValue="13006"    standardDeviation="16"     >12967</Metric>
+    <Metric id="Global.CurrentUser"                                  type="timer" unit="µs" count="6" sum="4022464" average="670411"  minValue="15"       maxValue="13794345" standardDeviation="1642047">2299194</Metric>
+    <Metric id="Global.CurrentUser_FetchIdentityFromDatabase"        type="timer" unit="µs" count="1" sum="4010057" average="4010057" minValue="13752614" maxValue="13752614"                            >13752614</Metric>
+  </Metrics>
+</Sqm>
